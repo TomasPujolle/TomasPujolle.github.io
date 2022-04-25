@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charmonman&display=swap');
+
+*{
+	font-family: 'Roboto', sans-serif;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+.tituloAP{
+	font-size: 5rem;
+	font-family: 'Charmonman', cursive;
+}
+
+
+/*--------------------NAV-----------------------------*/
+
+
+#botonera{
+	background-color: rgb(255, 198, 213);
+	font-size: 2.3rem;
+
+}
+	#botonera a{
+		padding: 2rem;
+		font-family: 'Fredoka One', cursive;
+	}
+
+	#botonera a:hover{
+		color: white;
+	}
+
+/*--------------------INDEX-----------------------------*/
+	
+#textoIndex{
+	background-color: rgb(255, 198, 213);
+	border-style: solid;
+	padding: 2rem;
+	font-size: 1.3rem;
+}
+
+@media only screen and (min-width: 1024px){
+	#textoIndex{
+		font-size: 2rem;
+	}
+}
+
+/*--------------------TRABAJOS-----------------------------*/
+.tituloText{
+	background-color: rgb(255, 198, 213);
+	font-family: 'Indie Flower', cursive;
+	font-size: 4rem;
+}
+
+#fondoImg{
+	background-color: rgb(255, 198, 213);
+
+}
+
+#foto1{
+	background-color: rgb(255, 237, 243);
+}
+	#foto1 p{
+		font-family: 'Indie Flower', cursive;
+		font-size: 1.4rem;
+	}
+
+#foto2{
+	background-color: rgb(255, 237, 243);
+}
+	#foto2 p{
+		font-family: 'Indie Flower', cursive;
+		font-size: 1.4rem;
+	}
+
+#foto3{
+	background-color: rgb(255, 237, 243);
+}
+	#foto3 p{
+		font-family: 'Indie Flower', cursive;
+		font-size: 1.4rem;
+	}
+
+#foto4{
+	background-color: rgb(255, 237, 243);
+}
+	#foto4 p{
+		font-family: 'Indie Flower', cursive;
+		font-size: 1.4rem;
+	}
+
+#foto5{
+	background-color: rgb(255, 237, 243);
+}
+	#foto5 p{
+		font-family: 'Indie Flower', cursive;
+		font-size: 1.4rem;
+	}
+
+#foto6{
+	background-color: rgb(255, 237, 243);
+}
+	#foto6 p{
+		font-family: 'Indie Flower', cursive;
+		font-size: 1.4rem;
+	}
+
+#foto7{
+	background-color: rgb(255, 237, 243);
+}
+	#foto7 p{
+		font-family: 'Indie Flower', cursive;
+		font-size: 1.4rem;
+	}
+
+#foto8{
+	background-color: rgb(255, 237, 243);
+}
+	#foto8 p{
+		font-family: 'Indie Flower', cursive;
+		font-size: 1.4rem;
+	}
+
+.preguntas{
+	background-color: rgb(255, 198, 213);
+	font-family: 'Indie Flower', cursive;
+
+}
+
+#botoness{
+	text-align: center;
+}
+
+#botonPreguntas1{
+	background-color: rgb(255, 237, 243);
+	font-family: 'Indie Flower', cursive;
+	font-size: 2.5rem;
+}
+
+#botonPreguntas2{
+	background-color: rgb(255, 198, 213);
+	font-family: 'Indie Flower', cursive;
+	font-size: 2.5rem;
+}
+
+#botonPreguntas3{
+	background-color: rgb(255, 237, 243);
+	font-family: 'Indie Flower', cursive;
+	font-size: 2.5rem;
+}
+
+
+/*--------------------PRECIOS-----------------------------*/
+
+.titulosP{
+	font-family: 'Indie Flower', cursive;
+	font-size: 2.3rem;
+
+}
+
+.bi-dash-lg{
+	color: rgb(255, 198, 213);
+}
+
+#tabla1{
+	font-size: 1.6rem;
+}
+
+#tabla2{
+	font-size: 1.6rem;
+}
+
+#tabla3{
+	font-size: 1.6rem;
+}
+
+#botonprecios{
+}
+
+
+/*--------------------SOBRE MI-----------------------------*/
+
+#textoSobremi{
+	background-color: rgb(255, 198, 213);
+	border-style: dotted;
+	font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 992px){
+	#textoSobremi{
+		font-size: 2rem;
+		padding: 1rem;
+		margin-left: 2rem;
+	}
+}
+
+/*--------------------CONTACTO-----------------------------*/
+
+#tituloEM{
+	font-size: 2rem;
+	font-family: 'Indie Flower', cursive;
+}
+
+#tituloEX{
+	font-size: 2rem;
+	font-family: 'Indie Flower', cursive;
+}
+
+.tituloMapa{
+	background-color: rgb(255, 198, 213);
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+	font-size: 3rem;
+	border-style: dashed;
+	margin-bottom: 3rem;
+}
+
+.mapa{
+	border-style: solid;
+	margin: 0;
+	padding: 0;
+}
+
+/*--------------------FOOTER-----------------------------*/
+footer{
+	display: flex;
+	background-color: rgb(255, 198, 213);
+	width: 100%;
+	height: 55px;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1rem;
+
+}
+.redes{
+	display: inline-block;
+}
+
+.bi-instagram{
+ font-size: 40px;
+ margin-left: 5px;
+ margin-right: 5px;
+ color: black;
+}
+
+	.bi-instagram:hover{
+		color: rgb(227, 86, 164);
+	}
+
+.bi-whatsapp{
+	font-size: 40px;
+ 	margin-left: 5px;
+	margin-right: 5px;
+ 	color: black;
+}
+	.bi-whatsapp:hover{
+		color: rgb(40, 156, 40);
+	}
+.bi-tiktok{
+	font-size: 40px;
+ 	margin-left: 5px;
+	 margin-right: 5px;
+ 	color: black;
+}
+	.bi-tiktok:hover{
+		color: white;
+	}
